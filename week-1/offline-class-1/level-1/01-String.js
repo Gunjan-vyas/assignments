@@ -59,7 +59,7 @@ function trimString(str) {
   console.log("Original String:", str);
   console.log("After trim:", str.trim());
 }
-trimString(" Hello World ");
+trimString("  Hello          World  "); // only trim from start and end not in middle of words
 
 // toUpperCase
 function toUpper(str) {
